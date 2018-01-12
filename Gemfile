@@ -10,7 +10,9 @@ ruby RUBY_VERSION
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~>3.4"
+gem "jekyll-remote-theme"
 gem 'github-pages'
+
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima"
@@ -26,6 +28,6 @@ gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
 # group :jekyll_plugins do
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
-group :jekyll_plugins do
-  gem 'jekyll_pages_api_search'
-end
+#group :jekyll_plugins do
+#  gem 'jekyll_pages_api_search'
+#end
