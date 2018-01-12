@@ -1,0 +1,37 @@
+# This file defines the structure of various named navigational
+# listings, any of which can be used (with some caveats) as the
+# links in your header, footer, and per-page side navigation.
+#
+# For instance, if you have a "primary" navigation list here, you
+# can use that as your header's primary navigation by setting
+# `primary.links` to "primary":
+#
+# primary:
+#   links: primary
+#
+primary:
+  - text: Playbook
+    href: /playbook/
+  - text: Resources
+    href: /resources/
+    links:
+      - text: Test
+        href: /docs/test
+      - text: Demo link B
+        href: /two/b/
+      - text: Demo link C
+        href: /two/c/
+  - text: About
+    href: /about/
+
+playbook:
+  - text: Playbook
+    href: /playbook/
+
+footer:
+  - text: Playbook
+    href: /playbook/
+  - text: Resources
+    href: /resources/
+  - text: About
+    href: /about/
