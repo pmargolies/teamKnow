@@ -1,0 +1,43 @@
+{% assign footer = site.data.footer %}
+{% assign navigation = site.data.navigation %}
+  <footer class="usa-footer usa-footer-slim" role="contentinfo">
+    {% if footer.top %}
+    <div class="usa-grid usa-footer-return-to-top">
+      <a href="{{ footer.top.href | default: '#' }}">{{ footer.top.text | default: 'Return to top' }}</a>
+    </div>
+    {% endif %}
+    <div class="usa-footer-primary-section">
+      <div class="usa-grid-full">
+        <nav class="usa-footer-nav usa-width-two-thirds">
+          <ul class="usa-unstyled-list">
+            {% for nav in navigation.footer %}
+            <li class="usa-width-one-fourth usa-footer-primary-content">
+              <a class="usa-footer-primary-link" href="{{ nav.href }}">{{ nav.text }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+        <!--
+        <div class="usa-width-one-third">
+          <div class="usa-footer-primary-content usa-footer-contact_info">
+            <p>(800) CALL-GOVT</p>
+          </div>
+          <div class="usa-footer-primary-content usa-footer-contact_info">
+            <a href="mailto:info@agency.gov">info@agency.gov</a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="usa-footer-secondary_section">
+      <div class="usa-grid">
+        {% for footer in site.data.footer.logos %}
+        <div class="usa-footer-logo">
+          <a href="{{ footer.url }}" target="_blank">
+            <img class="" src="{{ site.baseurl }}/{{ footer.src }}" alt="{{ footer.alt }}">
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </footer>
