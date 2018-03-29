@@ -12,6 +12,7 @@
 primary:
   - text: Playbook
     href: /playbook/
+    links: playbook
   - text: Resources
     href: /resources/
     links:
@@ -25,8 +26,16 @@ primary:
     href: /about/
 
 playbook:
-  - text: Playbook
+  - text: Overview
     href: /playbook/
+  - text: Continuity of Operations
+    href: /playbook/continuity-of-operations/
+  - text: Culture
+    href: /playbook/culture/
+  - text: Operational Efficiency
+    href: /playbook/operational-efficiency/
+  - text: Tools
+    href: /playbook/tools/
 
 footer:
   - text: Playbook

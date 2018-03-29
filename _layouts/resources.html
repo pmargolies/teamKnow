@@ -1,0 +1,22 @@
+---
+layout: default
+main:
+  class: usa-grid usa-section usa-content usa-layout-docs
+---
+{% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+{% assign resourcedata = site.data.resources %}
+
+<div class="usa-layout-docs-main_content">
+  {{ content }}
+  {% if resourcedata %}
+    {% for resource in resourcedata %}
+        <h2>{{ resource.title }}</h2>
+        {{ resource.author }}, {{ resource.publisher }} </br>
+        <a
+          {% if resource.external %}
+            class="usa-external_link"
+          {% endif %}
+          href="{{ resource.href }}">{{ resource.href }}</a>
+    {% endfor %}
+  {% endif %}
+</div>

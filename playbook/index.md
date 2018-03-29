@@ -5,15 +5,19 @@ permalink: /playbook/
 layout: page
 sidenav: playbook
 subnav:
-  - text: Section one
-    href: '#section-one'
-  - text: Section two
-    href: '#section-two'
+  - text: Operational Efficiency
+    href: '#operational-efficiency'
+  - text: Continuity of Operations
+    href: '#continuity-of-operations'
 ---
 
-# Section one
+# Summary
 
-This is some content.
+This is some content. Blah
+
+# Operational Efficiency
+
+# Continuity of Operations
 
 ## Section two
 
