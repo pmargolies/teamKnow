@@ -16,8 +16,9 @@ gem 'github-pages'
 # gem "minima"
 
 # USWDS gem
-# gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
+gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
 gem "jekyll-remote-theme"
+gem "jekyll-github-metadata"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
