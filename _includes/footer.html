@@ -17,27 +17,34 @@
             {% endfor %}
           </ul>
         </nav>
-        <!--
-        <div class="usa-width-one-third">
-          <div class="usa-footer-primary-content usa-footer-contact_info">
-            <p>(800) CALL-GOVT</p>
-          </div>
-          <div class="usa-footer-primary-content usa-footer-contact_info">
-            <a href="mailto:info@agency.gov">info@agency.gov</a>
-          </div>
-        </div> -->
+
+
       </div>
     </div>
 
-    <div class="usa-footer-secondary_section">
+    <div class="usa-footer-secondary_section" style="background-color:#aeb0b5">
       <div class="usa-grid">
         {% for footer in site.data.footer.logos %}
-        <div class="usa-footer-logo">
-          <a href="{{ footer.url }}" target="_blank">
-            <img class="" src="{{ site.baseurl }}/{{ footer.src }}" alt="{{ footer.alt }}">
-          </a>
+        <div class="usa-footer-logo usa-width-one-half">
+          <div class="usa-footer-logo">
+            <a href="{{ footer.url }}" target="_blank">
+              <img class="" src="{{ site.baseurl }}/{{ footer.src }}" alt="{{ footer.alt }}">
+            </a>
+          </div>
         </div>
         {% endfor %}
+        <div class="usa-width-one-half">
+          <div class="usa-footer-contact-links">
+            Edit this site on
+            <a class="usa-link-github" href="https://github.com/mvogelgesang/teamKnow">
+              <button class="usa-button-secondary usa-external_link" style="background-color:#aeb0b5;">GitHub</button>
+            </a>
+          </div>
+          <div class="usa-footer-primary-content">
+            <p style="text-align:right">Built with <a href="https://designsystem.digital.gov">US Web Design System</a>, a product of the US Government</p>
+          </div>
+        </div>
       </div>
+
     </div>
   </footer>
