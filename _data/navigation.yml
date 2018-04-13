@@ -15,13 +15,6 @@ primary:
     links: playbook
   - text: Resources
     href: /resources/
-    links:
-      - text: Test
-        href: /docs/test
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
   - text: About
     href: /about/
 
@@ -34,6 +27,8 @@ playbook:
     href: /playbook/culture/
   - text: Operational Efficiency
     href: /playbook/operational-efficiency/
+  - text: Succession Planning
+    href: /playbook/succession-planning/
   - text: Tools
     href: /playbook/tools/
 

@@ -4,9 +4,11 @@ permalink: /resources/
 layout: resources
 
 ---
-
+{% assign grouped_resources = site.resources | group_by: 'category' %}
 # Resources
-
-## Operational Efficiency
-- [https://www.bastiansolutions.com/blog/index.php/2011/06/21/change-management-8-tips-to-successfully-implement-a-new-technology/](http://iea.wikidot.com/best-practices)
-- [http://iea.wikidot.com/best-practices](http://iea.wikidot.com/best-practices_)
+{% for category in grouped_resources %}
+  ## {{category.name}}
+    {% for item in category.items %}
+      <p>{{item.title}}</p>
+    {% endfor %}    
+{% endfor %}

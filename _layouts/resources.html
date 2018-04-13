@@ -4,19 +4,22 @@ main:
   class: usa-grid usa-section usa-content usa-layout-docs
 ---
 {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
-{% assign resourcedata = site.data.resources %}
+{% assign resourcedata = site.data.resources | group_by: 'category' %}
 
 <div class="usa-layout-docs-main_content">
   {{ content }}
   {% if resourcedata %}
     {% for resource in resourcedata %}
-        <h2>{{ resource.title }}</h2>
-        {{ resource.author }}, {{ resource.publisher }} </br>
-        <a
-          {% if resource.external %}
-            class="usa-external_link"
-          {% endif %}
-          href="{{ resource.href }}">{{ resource.href }}</a>
+      <h2>{{resource.name}}</h2>
+      {% for item in resource.items %}
+        <h3>{{item.title}}</h3>
+        {% if item.author %} {{item.author}}, {% endif %}{% if item.publisher %} {{ item.publisher }} - {% endif %}
+          <a
+            {% if item.external %}
+              class="usa-external_link"
+            {% endif %}
+            href="{{ item.href }}">{{ item.href }}</a>
+      {% endfor %}
     {% endfor %}
   {% endif %}
 </div>
