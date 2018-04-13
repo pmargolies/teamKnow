@@ -14,10 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Knowledge Management Playbook
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description."
+email: mark.vogelgesang@gsa.gov
+description: "A playbook to ensuring successful collection and dissemination of knowledge throughout the federal government."
 baseurl: "/teamKnow" # the subpath of your site, e.g. /blog
 url: "https://mvogelgesang.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
