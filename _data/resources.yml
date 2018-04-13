@@ -3,8 +3,22 @@
   publisher: The World Bank
   href: https://www.knowledgesharingfordev.org/Data/wbi/wbicms/files/drupal-acquia/wbi/field/documents/becoming_a_kso_final_web.pdf
   external: True
+  category: Culture
+- title: Enterprise Architecture Best Practices
+  author:
+  publisher:
+  href: http://iea.wikidot.com/best-practices
+  external: True
+  category: Operational Efficiency
+- title: Change Management 8 Tips to Successfully Implement a New Technology
+  author: Aaron Jones
+  publisher: Bastian Solutions
+  href: https://www.bastiansolutions.com/blog/index.php/2011/06/21/change-management-8-tips-to-successfully-implement-a-new-technology/
+  external: True
+  category: Operational Efficiency
 - title:
   author:
   publisher:
   href:
   external:
+  category:
