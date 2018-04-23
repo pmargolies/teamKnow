@@ -42,13 +42,18 @@ The essential functions give rise to identification of systems that support the 
 
 Specific types of events can present their own unique challenges regarding accessing knowledge needed to continue use of essential systems, as well as how knowledge is disseminated given the circumstances surrounding the emergency.
 
-This playbook will address three emergency scenarios that may spark a COOP response: 1.) Infrastructure failure (i.e. networks that support major applications are unavailable from the main location) 2.) Lack of People (i.e. widespread illness of employees that support major systems); 3.) Access to the operational facility is prohibited (i.e. road closure, building is contaminated, mass transit failure).
+This playbook will address three emergency scenarios that may spark a COOP response:
+1. Infrastructure failure (i.e. networks that support major applications are unavailable from the main location)
+2. Lack of People (i.e. widespread illness of employees that support major systems);
+3. Access to the operational facility is prohibited (i.e. road closure, building is contaminated, mass transit failure).
 
 **COOP Stakeholders**
+
 Stakeholder identification and knowledge management are integrated, essential components as these persons must have access to information and documentation surrounding COOP activities. Hardcopy files and access to the central document repository is essential.
 
 **Knowledge Arsenal**
-A list of potential artifacts that will prove valuable to users in the event of an emergency can be viewed here. {insert link}. This Knowledge Arsenal, may include documents that may contain information that includes sensitive data such as internet protocol (ip) addresses, so care must be taken in storing this information in both hard copy files and in the knowledge repository.
+
+A list of potential artifacts that will prove valuable to users in the event of an emergency can be viewed [here](#documents). This Knowledge Arsenal, may include documents that may contain information that includes sensitive data such as internet protocol (ip) addresses, so care must be taken in storing this information in both hard copy files and in the knowledge repository.
 
 # Systems Unavailable
 What essential knowledge is needed to support major systems access if the primary location, it Infrastructure, and internal network, are not operational?
@@ -268,7 +273,7 @@ List of potential COOP Knowledge Management Stakeholders are below:
 - Systems operations Personnel (Providers of day-to-day support)
 - Telecom Companies (e.g. Sprint, AT&T, T-Mobile)
 - Network Hubs other than internal to the specific agency (i.e. Treasury TIC (Trusted Internet Connection) used by Treasury agencies)
-- Information Technology Directorates (Infrastructure, Security, Networks, Database Administrators and backup personnel
+- Information Technology Directorates (Infrastructure, Security, Networks, Database Administrators and backup personnel)
 - Chief Information Officer
 - Employees
 - Major Systems Administrators
@@ -276,9 +281,9 @@ List of potential COOP Knowledge Management Stakeholders are below:
 - Disaster Recovery (DR) Plan POC
 - Disaster Recovery Site Personnel
 - COOP Site Personnel
-- Directorate Heads (i.e. Finance, Human Capital, Manufacturing, Corporate - Communication, Assistant Directors
+- Directorate Heads (i.e. Finance, Human Capital, Manufacturing, Corporate - Communication, Assistant Directors)
 - Public
-- Recovery Vendors (i.e. off-site storage
+- Recovery Vendors (i.e. off-site storage)
 - IT Services or Help Desk
 
 ## Documents
