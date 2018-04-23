@@ -27,6 +27,8 @@ Donna Blue oversees and manages the Enterprise Systems Branch in the Information
 ## Justin Jefferson
 _U.S. Department of Education_ - <a href="mailto:Justin.Jefferson@ed.gov">Justin.Jefferson@ed.gov</a>
 
+Justin Jefferson currently works at the US Department of Education as an IT Specialist and Contracting Officer's Representative (COR). His work within the Office of the Chief Information Officer (OCIO) is mostly focused on the main ED.gov website as a COR, lead tester and backup Project Manager.  Prior to joining the Department in 2002, Justin previously worked as a summer intern at the Department of Veterans Affairs, Office of Security and Law Enforcement.
+
 ## Philip Margolies
 _U.S. Patent and Trademark Office_ - <a href="mailto:Philip.Margolies@uspto.gov">Philip.Margolies@uspto.gov</a>
 
