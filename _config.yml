@@ -18,8 +18,9 @@ email: mark.vogelgesang@gsa.gov
 description: "A playbook to ensuring successful collection and dissemination of knowledge throughout the federal government."
 baseurl: "/teamKnow" # the subpath of your site, e.g. /blog
 url: "https://mvogelgesang.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username:
+github_username:  mvogelgesang
+google_analytics_ua: UA-118037805-1
 
 #Github information
 repository: mvogelgesang/teamKnow
