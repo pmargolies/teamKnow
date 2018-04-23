@@ -22,9 +22,11 @@ For more information about the Federal IT Leaders program, checkout their page [
 # The Team
 ## Donna Blue
 _Department of Treasury, U.S. Mint_ - Donna.Blue@usmint.treas.gov
+
+Donna Blue oversees and manages the Enterprise Systems Branch in the Information Technology Directorate at the United States Mint. The United States Mint’s public facing internet site, [usmint.gov](https://www.usmint.gov/), the Mint’s Intranet site, data repository systems such as Documentum and SharePoint as well as the Mint’s mobile application fall under her area of responsibility. In this role she also serves as project manager, business analyst, software tester and test coordinator. Previously she worked in the private sector supporting applications that support employee benefits; pension plan administration application support to include hands on implementation and/or conversion of billing, pension plan valuation, data storage and reporting application solutions.
 ## Justin Jefferson
 _U.S. Department of Education_ - Justin.Jefferson@ed.gov
-## Phillip Margolis
+## Philip Margolies
 _U.S. Patent and Trademark Office_ - Philip.Margolies@uspto.gov
 
 Phil Margolies is a business analyst and project manager at the US Patent and Trademark Office. His work for the Website Management branch focuses on new project intake, requirements development & management, and technical support. His interest is identifying and applying Information Technology solutions to business and organizational problems (where and as appropriate) in the public sector. Previously, he worked in customer support, website management, and project management at the US Consumer Product Safety Commission.
