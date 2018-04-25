@@ -4,11 +4,6 @@ permalink: /playbook/
 
 layout: page
 sidenav: playbook
-subnav:
-  - text: Operational Efficiency
-    href: '#operational-efficiency'
-  - text: Continuity of Operations
-    href: '#continuity-of-operations'
 ---
 
 # Creating a Federal IT Knowledge Management Playbook
@@ -34,6 +29,6 @@ We assessed knowledge currently available at our respective agencies and how suc
 * Agencies may have different needs and processes for adoption, including risk appetite for necessary changes
 * Playbook focus must not be too broad/high-level or too specific to a particular agency
 
-To learn more about the team and the program which inspired this playbook, check out the [About](/about) page. 
+To learn more about the team and the program which inspired this playbook, check out the [About](/about) page.
 
 [^1]: <a class="usa-external_link" href="https://www.opm.gov/policy-data-oversight/data-analysis-documentation/federal-employment-reports/reports-publications/profile-of-federal-civilian-non-postal-employees/">Profile of Federal Civilian Non-Postal Employees</a>
