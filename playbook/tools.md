@@ -5,12 +5,11 @@ permalink: /playbook/tools/
 layout: page
 sidenav: playbook
 subnav:
-  - text: Blah
-    href: '#blah'
-  - text: Boo
-    href: '#boo'
+  - text: Overview
+    href: '#overview'
+  - text: Plays
+    href: '#plays'
 ---
 
-## Blah
-
-## Boo
+# Overview
+to be added
